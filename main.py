@@ -27,13 +27,3 @@ async def predict_image(file: UploadFile=File(...)):
             'Error': 2,
             'description': 'Error during OCR'
         }
-    
-
-# uvicorn main:app --host 127.0.0.1 --port 8000 --reload
-
-# docker build --no-cache -t ocr-api .
-# docker images
-# docker run -t -p 8001:8080 ocr-api
-
-# docker ps
-# docker builder prune -f
