@@ -1,0 +1,6 @@
+{
+  "languages": ["en"],
+  "separator": "\n",
+  "paragraph": true,
+  "gpu": false
+}
